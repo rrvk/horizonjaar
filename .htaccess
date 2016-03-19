@@ -1,0 +1,6 @@
+Options -Indexes +ExecCGI
+AddHandler cgi-script .cgi .pl
+
+# Displaying PHP errors
+php_flag display_errors on
+php_value error_reporting 6143

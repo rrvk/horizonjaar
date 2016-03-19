@@ -1,0 +1,70 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+  background-image: url("../images/Background.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center; 
+}
+
+.row{
+    border-radius: 10px;
+    border: 1px solid #000000;
+}
+
+.footerText{
+    color:#FFFFFF;
+    font-weight: bold;
+}
+
+.footerText A:link {text-decoration: none; color: #FFFFFF;}
+.footerText A:visited {text-decoration: none; color: #FFFFFF;}
+.footerText A:hover {text-decoration: none; color: #FFFFFF;}
+.footerText A:active {text-decoration: none; color: #FFFFFF;}
+.container-fluid{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+A:link {text-decoration: none; color: #000000;}
+A:visited {text-decoration: none; color: #000000;}
+A:hover {text-decoration: none; color: #000000;}
+A:active {text-decoration: none; color: #000000;}
+
+.foto{
+    margin-left:2%;
+    float:left; 
+    max-height:200px;
+    //max-width:300px; 
+}
+
+.fotoOverview{
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+}
+
+.col-md-4{   
+    padding:1%;
+}
+.text
+{
+  background-color: #ffffff;
+  //border: 1px solid black;
+  opacity:0.9;
+  height: 100%;
+  border-radius: 10px;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 64px;
+  background-color: #b4003c;
+}
